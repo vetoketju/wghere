@@ -1,7 +1,7 @@
 *.suo
 *.sdf
 Debug/
-Bin/
+Bin/Debug/
 obj/
 PerfLogs/
 *.user
