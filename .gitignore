@@ -1,0 +1,7 @@
+*.suo
+*.sdf
+Debug/
+Bin/
+obj/
+PerfLogs/
+*.user
