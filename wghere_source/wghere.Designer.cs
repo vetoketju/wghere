@@ -1,6 +1,6 @@
 ﻿namespace httpDownloader
 {
-    partial class VSWGet
+    partial class wghere
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wghere));
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.dlbt = new System.Windows.Forms.Button();
             this.urlBox = new System.Windows.Forms.TextBox();
@@ -35,16 +36,18 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(12, 40);
+            this.progressBar.Location = new System.Drawing.Point(9, 34);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(492, 19);
+            this.progressBar.Size = new System.Drawing.Size(558, 18);
             this.progressBar.TabIndex = 0;
             // 
             // dlbt
             // 
-            this.dlbt.Location = new System.Drawing.Point(393, 12);
+            this.dlbt.Location = new System.Drawing.Point(484, 10);
+            this.dlbt.Margin = new System.Windows.Forms.Padding(2);
             this.dlbt.Name = "dlbt";
-            this.dlbt.Size = new System.Drawing.Size(111, 23);
+            this.dlbt.Size = new System.Drawing.Size(83, 22);
             this.dlbt.TabIndex = 1;
             this.dlbt.Text = "Download";
             this.dlbt.UseVisualStyleBackColor = true;
@@ -52,21 +55,24 @@
             // 
             // urlBox
             // 
-            this.urlBox.Location = new System.Drawing.Point(12, 12);
+            this.urlBox.Location = new System.Drawing.Point(9, 11);
+            this.urlBox.Margin = new System.Windows.Forms.Padding(2);
             this.urlBox.Name = "urlBox";
-            this.urlBox.Size = new System.Drawing.Size(375, 22);
+            this.urlBox.Size = new System.Drawing.Size(471, 20);
             this.urlBox.TabIndex = 2;
             // 
-            // VSWGet
+            // wghere
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 78);
+            this.ClientSize = new System.Drawing.Size(578, 64);
             this.Controls.Add(this.urlBox);
             this.Controls.Add(this.dlbt);
             this.Controls.Add(this.progressBar);
-            this.Name = "VSWGet";
-            this.Text = "VerySimpleWGet";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "wghere";
+            this.Text = "wghere";
             this.ResumeLayout(false);
             this.PerformLayout();
 

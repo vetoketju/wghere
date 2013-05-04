@@ -12,14 +12,14 @@ using System.Windows.Forms;
 
 namespace httpDownloader
 {
-    public partial class VSWGet : Form
+    public partial class wghere : Form
     {
         public string url = "";
-        public string filename = "httpDownloaderFile";
+        public string filename = "_wghereDownloaderFile";
         public string outputfolder = "";
         string[] args;
 
-        public VSWGet(string[] args)
+        public wghere(string[] args)
         {
             this.args = args;
             InitializeComponent();

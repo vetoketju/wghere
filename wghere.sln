@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerySimpleWGet", "httpDownloader\VerySimpleWGet.csproj", "{A32E4B87-4601-4626-BA23-3D3B4D13F324}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wghere", "wghere_source\wghere.csproj", "{A32E4B87-4601-4626-BA23-3D3B4D13F324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

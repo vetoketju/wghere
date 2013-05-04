@@ -16,7 +16,7 @@ namespace httpDownloader
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VSWGet(args));
+            Application.Run(new wghere(args));
         }
     }
 }
