@@ -8,7 +8,7 @@ vghere is wget type visual web downloader application for windows.
 
 Download, install and usage
 -------
-1. Download or build executable (https://github.com/vetoketju/wghere/blob/master/wghere_source/bin/Release/wghere.exe)
+1. Download or build executable (https://github.com/vetoketju/wghere/raw/master/wghere_source/bin/Release/wghere.exe)
 
 2. Place wghere.exe under "C:\Windows" -directory
 
