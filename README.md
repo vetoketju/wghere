@@ -1,4 +1,7 @@
-VSWGet
+vghere
 ======
 
-VerySimpleWGet is a simple visual downloader for Windows
+vghere is wget type visual web downloader application for windows.
+
+Licence
+-------
