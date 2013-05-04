@@ -1,7 +1,7 @@
 wghere
 ======
 
-vghere is wget type visual web downloader application for windows.
+wghere is wget type visual web downloader application for windows.
 
 ![Screenshot](/wghere_screenshot.jpg "Screenshot")
 
